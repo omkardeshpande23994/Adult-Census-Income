@@ -1,5 +1,6 @@
 # Adult-Census-Income
-Prediction of Adult Census Income dataset using different classification models
+
+# Prediction of Adult Census Income dataset using different classification models
 
 In this project, We have performed a detailed comparison of 12 different classification models
 for the Adult Census Income dataset to predict whether a person's income is over 50000 USD
