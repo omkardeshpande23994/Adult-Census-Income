@@ -12,3 +12,11 @@ We have observed 86% overall accuracy for default values and improvement of over
 overall accuracy) after the optimization of the models. The results of the experiments show that
 a similar set of preprocessing and classification models can be used for comparing many
 prediction problems similar to the one presented in the project.
+
+
+The repository contains 4 files : 
+
+1. Project_Report - Report file containing all my findings
+2. Project_Code.py - Project code 
+3. data.csv - Dataset used for the project
+4. Experiments - Text file containing the experiments performed within the project
