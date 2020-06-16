@@ -1,0 +1,585 @@
+-----------------------------
+Results of Experiments
+-----------------------------
+
+
+1. OUTPUT WITH ONE HOT ENCODING USING GET DUMMIES
+
+### Classifier : Gaussian NB  ### 
+Accuracy : 0.6204288025889968 
+precision : 0.4579059324036871 
+Recall : 0.21338447768520355 
+F1 Score : 0.25440248766368123
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.7830703883495145 
+precision : 0.6614321698145085 
+Recall : 0.8213598735258619 
+F1 Score : 0.7118007512645352
+
+ ### Classifier : Decision Tree  ### 
+Accuracy : 0.785962783171521 
+precision : 0.6689678965536867 
+Recall : 0.7615079771356277 
+F1 Score : 0.6974091968829418
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.7853155339805825 
+precision : 0.6662535384666753 
+Recall : 0.7772472867911638 
+F1 Score : 0.7016369611539182
+
+ ### Classifier : Logistic Regression  ### 
+Accuracy : 0.6194377022653723 
+precision : 0.5810261373615038 
+Recall : 0.5509543767237292 
+F1 Score : 0.5228641486619902
+
+ ### Classifier : LDA  ### 
+Accuracy : 0.6083131067961165 
+precision : 0.5820866413189136 
+Recall : 0.6062398933082431 
+F1 Score : 0.5401313589001354
+
+ ### Classifier : AdaBoost  ### 
+Accuracy : 0.6395024271844659 
+precision : 0.5827196275816291 
+Recall : 0.7766891711901427 
+F1 Score : 0.6082847669714759
+
+ ### Classifier : QDA  ### 
+Accuracy : 0.620388349514563 
+precision : 0.4579059324036871 
+Recall : 0.21334402461076984 
+F1 Score : 0.2543556281958669
+
+ ### Classifier : Neural Net  ### 
+Accuracy : 0.6210153721682847 
+precision : 0.4810167853540266 
+Recall : 0.6794385928045725 
+F1 Score : 0.49650885749511725
+
+ ### Classifier : Gradient Boosting  ### 
+Accuracy : 0.6793487055016181 
+precision : 0.5961578805808295 
+Recall : 0.779501074688864 
+F1 Score : 0.6308794756568016
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.7914239482200648 
+precision : 0.6693488060111776 
+Recall : 0.7705010798810525 
+F1 Score : 0.7032305077136565
+
+ ### Classifier : XGBOOST Classifer  ### 
+Accuracy : 0.6766181229773462 
+precision : 0.5966689727998677 
+Recall : 0.777747650803566 
+F1 Score : 0.6293800872349555
+
+Top 3 Accuracies :  [('Extra Trees', 0.7914239482200648), ('Decision Tree', 0.785962783171521), ('Random Forest', 0.7853155339805825), ('KNN', 0.7830703883495145)]
+
+Time taken :  1704.6017325710127
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+2. OUTPUT WITH DROPPING UNNCESSARY COLUMNS LIKE FNLWGT, RELATIONSHIP ETC.
+
+### Classifier : Gaussian NB  ### 
+Accuracy : 0.6714805825242718 
+precision : 0.6443714879778619 
+Recall : 0.5829368664315905 
+F1 Score : 0.5800803318959326
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.7714199029126214 
+precision : 0.6548579134002519 
+Recall : 0.802283121885603 
+F1 Score : 0.6974493282203619
+
+ ### Classifier : Decision Tree  ### 
+Accuracy : 0.7567961165048545 
+precision : 0.6541380323428293 
+Recall : 0.7307700075894281 
+F1 Score : 0.6723013146057657
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.7843648867313917 
+precision : 0.6686241622852795 
+Recall : 0.7839915531495629 
+F1 Score : 0.7035361907757995
+
+ ### Classifier : LDA  ### 
+Accuracy : 0.6786205501618123 
+precision : 0.6341365980822601 
+Recall : 0.6554264359236935 
+F1 Score : 0.606137815934294
+
+ ### Classifier : QDA  ### 
+Accuracy : 0.671703074433657 
+precision : 0.644450483904655 
+Recall : 0.5835936993575784 
+F1 Score : 0.5804590199781224
+
+ ### Classifier : Gradient Boosting  ### 
+Accuracy : 0.723826860841424 
+precision : 0.6303251012430351 
+Recall : 0.7710407718031704 
+F1 Score : 0.6601009456094435
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.7986448220064725 
+precision : 0.6788510140833248 
+Recall : 0.7900773840517253 
+F1 Score : 0.7135216200511957
+
+Top 3 Accuracies :  [('Extra Trees', 0.7986448220064725), ('Random Forest', 0.7843648867313917), ('KNN', 0.7714199029126214), ('Decision Tree', 0.7567961165048545)]
+
+Time taken :  568.3426681840065
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+3. OUTPUT WITHOUT DELETING ANY COLUMNS
+
+### Classifier : Gaussian NB  ### 
+Accuracy : 0.7686690938511326 
+precision : 0.7140477504421515 
+Recall : 0.6715848785420228 
+F1 Score : 0.6797441160016678
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.7205501618122977 
+precision : 0.6003452845511313 
+Recall : 0.8273838632312975 
+F1 Score : 0.6584691475582817
+
+ ### Classifier : Decision Tree  ### 
+Accuracy : 0.8403519417475728 
+precision : 0.6839679453210229 
+Recall : 0.7242135599396855 
+F1 Score : 0.6986795353754834
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8754247572815533 
+precision : 0.7552182195256296 
+Recall : 0.7599018295487672 
+F1 Score : 0.7529191877878935
+
+ ### Classifier : LDA  ### 
+Accuracy : 0.7906148867313916 
+precision : 0.6620785285881847 
+Recall : 0.8695707174704485 
+F1 Score : 0.72564177285275
+
+ ### Classifier : QDA  ### 
+Accuracy : 0.6072208737864078 
+precision : 0.6095072848372023 
+Recall : 0.6492507069902854 
+F1 Score : 0.5214839712865895
+
+ ### Classifier : Gradient Boosting  ### 
+Accuracy : 0.8671925566343042 
+precision : 0.7423648630149154 
+Recall : 0.7835387818111599 
+F1 Score : 0.7577555120663234
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8791868932038837 
+precision : 0.7505807710154585 
+Recall : 0.7766205632449376 
+F1 Score : 0.7583407635193181
+
+Top 3 Accuracies :  [('Extra Trees', 0.8791868932038837), ('Random Forest', 0.8754247572815533), ('Gradient Boosting', 0.8671925566343042), ('Decision Tree', 0.8403519417475728)]
+
+Time taken :  688.3774785590067
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+4. OUTPUT USING ORDINAL ENCODING
+
+ ### Classifier : Gaussian NB  ### 
+Accuracy : 0.8125082698463111 
+precision : 0.7200781586638753 
+Recall : 0.17849237474531143 
+F1 Score : 0.2567959505636299
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.7312852246418412 
+precision : 0.3562466801519558 
+Recall : 0.15335475160883477 
+F1 Score : 0.20722536193084395
+
+ ### Classifier : Decision Tree  ### 
+Accuracy : 0.7767016929704986 
+precision : 0.5058658399902326 
+Recall : 0.4818828411584315 
+F1 Score : 0.48925430611140575
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8178270068851893 
+precision : 0.6566696948502733 
+Recall : 0.46962958514835973 
+F1 Score : 0.5458905126451894
+
+ ### Classifier : LDA  ### 
+Accuracy : 0.7932324462375122 
+precision : 0.6128106984925689 
+Recall : 0.4322026106276028 
+F1 Score : 0.506539190307725
+
+ ### Classifier : QDA  ### 
+Accuracy : 0.7985963326767748 
+precision : 0.7083899090297272 
+Recall : 0.13764887937250148 
+F1 Score : 0.18653784541254415
+
+ ### Classifier : Gradient Boosting  ### 
+Accuracy : 0.8098767236547403 
+precision : 0.6923036128603607 
+Recall : 0.4209908647024473 
+F1 Score : 0.5140023605767721
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8060049834075012 
+precision : 0.631913806052415 
+Recall : 0.4756314304551636 
+F1 Score : 0.5323828127975346
+
+Top 3 Accuracies :  [('Random Forest', 0.8178270068851893), ('Gaussian NB', 0.8125082698463111), ('Gradient Boosting', 0.8098767236547403), ('Extra Trees', 0.8060049834075012)]
+
+Time taken :  378.8488990160113
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+5. WITHOUT SCALING OF DATA (STANDARDSCALAR)	
+
+ ### Classifier : Gaussian NB  ### 
+Accuracy : 0.4956257962245987 
+precision : 0.3200274300566506 
+Recall : 0.9662011745424748 
+F1 Score : 0.4805459482546873
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.822025670828066 
+precision : 0.6605372029472949 
+Recall : 0.5388077841079071 
+F1 Score : 0.5883400666192504
+
+ ### Classifier : Decision Tree  ### 
+Accuracy : 0.7645963695364892 
+precision : 0.5108856327839325 
+Recall : 0.5020669931452505 
+F1 Score : 0.49326411503436474
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8075620069632045 
+precision : 0.64192903395989 
+Recall : 0.49823899923258025 
+F1 Score : 0.5367240239385092
+
+ ### Classifier : Logistic Regression  ### 
+Accuracy : 0.8323767179306103 
+precision : 0.7156328658120303 
+Recall : 0.558433894590341 
+F1 Score : 0.6038927585741712
+
+ ### Classifier : LDA  ### 
+Accuracy : 0.8099592253783872 
+precision : 0.6677319479362115 
+Recall : 0.5913265306122448 
+F1 Score : 0.5930287491636165
+
+ ### Classifier : AdaBoost  ### 
+Accuracy : 0.8055966549230021 
+precision : 0.6557216334381489 
+Recall : 0.48050745632861175 
+F1 Score : 0.5280711889765938
+
+ ### Classifier : QDA  ### 
+Accuracy : 0.30803581836515964 
+precision : 0.2561606396100395 
+Recall : 0.9823981217726097 
+F1 Score : 0.40629182848251055
+
+ ### Classifier : Gradient Boosting  ### 
+Accuracy : 0.8082375836118352 
+precision : 0.6751666708131637 
+Recall : 0.4623965934366098 
+F1 Score : 0.5207262506285676
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8063332652404508 
+precision : 0.6306158331202291 
+Recall : 0.5203060574134051 
+F1 Score : 0.5548855179324714
+
+ ### Classifier : XGBOOST Classifer  ### 
+Accuracy : 0.8075925827422834 
+precision : 0.6805529384872637 
+Recall : 0.44900373629375273 
+F1 Score : 0.510305798618768
+
+Top 3 Accuracies :  [('Logistic Regression', 0.8323767179306103), ('KNN', 0.822025670828066), ('LDA', 0.8099592253783872), ('Gradient Boosting', 0.8082375836118352)]
+
+Time taken :  14.704714985049698
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+7. OUTPUT WITH IMBALANCE HANDLED USING SMOTE
+
+
+### Classifier : Gaussian NB  ### 
+Accuracy : 0.6632686084142395 
+precision : 0.6015337481949544 
+Recall : 0.9686084142394822 
+F1 Score : 0.7421239570160274
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.8566545307443365 
+precision : 0.8061143933048361 
+Recall : 0.942111650485437 
+F1 Score : 0.8684519079789259
+
+ ### Classifier : Decision Tree  ### 
+Accuracy : 0.8313106796116505 
+precision : 0.815638733131381 
+Recall : 0.8651699029126213 
+F1 Score : 0.8372922021759532
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8740088996763754 
+precision : 0.8604336279269116 
+Recall : 0.887742718446602 
+F1 Score : 0.8748550118038224
+
+ ### Classifier : Logistic Regression  ### 
+Accuracy : 0.8104773462783171 
+precision : 0.7922136779377211 
+Recall : 0.8547330097087379 
+F1 Score : 0.8200320835077262
+
+ ### Classifier : LDA  ### 
+Accuracy : 0.8078681229773462 
+precision : 0.7786607607836814 
+Recall : 0.861326860841424 
+F1 Score : 0.8177564100210534
+
+ ### Classifier : AdaBoost  ### 
+Accuracy : 0.8279126213592234 
+precision : 0.8080485731028035 
+Recall : 0.8743122977346278 
+F1 Score : 0.837613532135185
+
+ ### Classifier : QDA  ### 
+Accuracy : 0.573361650485437 
+precision : 0.5411144814548384 
+Recall : 0.9799352750809062 
+F1 Score : 0.696919446468468
+
+ ### Classifier : Neural Net  ### 
+Accuracy : 0.8426982200647248 
+precision : 0.805221444109948 
+Recall : 0.9198624595469255 
+F1 Score : 0.8553935380173039
+
+ ### Classifier : Gradient Boosting  ### 
+Accuracy : 0.8399271844660194 
+precision : 0.8147071339964704 
+Recall : 0.8898867313915858 
+F1 Score : 0.8488617308567058
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8893810679611651 
+precision : 0.8727051913600595 
+Recall : 0.9118527508090615 
+F1 Score : 0.8899759684240538
+
+ ### Classifier : XGBOOST Classifer  ### 
+Accuracy : 0.8393406148867314 
+precision : 0.8088469145090329 
+Recall : 0.897653721682848 
+F1 Score : 0.8495299253987797
+
+Top 4 Accuracies :  [('Extra Trees', 0.8893810679611651), ('Random Forest', 0.8740088996763754), ('KNN', 0.8566545307443365), ('Neural Net', 0.8426982200647248)]
+
+Time taken :  37.489838668866675
+
+('Extra Trees', 0.8893810679611651), 
+('Random Forest', 0.8740088996763754), 
+('KNN', 0.8566545307443365), 
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+8. OUTPUTS FOR FEATURE SELECTION
+
+1.1 K best
+
+### Classifier : Extra Trees  ### 
+Accuracy : 0.8749797734627831 
+precision : 0.8626947829695351 
+Recall : 0.8962378640776698 
+F1 Score : 0.8786193562241522
+
+ ### Classifier : Extra Trees Optimized  ### 
+Accuracy : 0.8876011326860841 
+precision : 0.8583409331190909 
+Recall : 0.9326860841423947 
+F1 Score : 0.8934978371237386
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8610032362459548 
+precision : 0.847171007961314 
+Recall : 0.8834546925566343 
+F1 Score : 0.8670549241080419
+
+ ### Classifier : Random Forest Optimized  ### 
+Accuracy : 0.8726739482200647 
+precision : 0.8438638269759089 
+Recall : 0.9254449838187702 
+F1 Score : 0.8820645628318367
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.8563713592233009 
+precision : 0.8067538530461897 
+Recall : 0.939967637540453 
+F1 Score : 0.867932711236497
+
+ ### Classifier : KNN Optimized  ### 
+Accuracy : 0.8873179611650486 
+precision : 0.841985245336125 
+Recall : 0.9566343042071196 
+F1 Score : 0.8951897175666751
+
+------------------------------------------------
+
+1.2 Select Percentile
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8778114886731391 
+precision : 0.8593690295197514 
+Recall : 0.8981391585760518 
+F1 Score : 0.878930746344736
+
+ ### Classifier : Extra Trees Optimized  ### 
+Accuracy : 0.8880865695792881 
+precision : 0.8582088506181111 
+Recall : 0.9333333333333332 
+F1 Score : 0.8926081298892218
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.859890776699029 
+precision : 0.8461939630210207 
+Recall : 0.8857605177993527 
+F1 Score : 0.8635710322722343
+
+ ### Classifier : Random Forest Optimized  ### 
+Accuracy : 0.8742313915857606 
+precision : 0.8436597453515701 
+Recall : 0.9249595469255663 
+F1 Score : 0.8807915203869445
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.8562904530744337 
+precision : 0.8064910752027862 
+Recall : 0.9402508090614887 
+F1 Score : 0.8679046594588371
+
+ ### Classifier : KNN Optimized  ### 
+Accuracy : 0.8872977346278317 
+precision : 0.8417029231711334 
+Recall : 0.9570388349514565 
+F1 Score : 0.8952126190220344
+
+------------
+
+2. low variance removal
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8676982200647249 
+precision : 0.849243411886048 
+Recall : 0.8951860841423948 
+F1 Score : 0.870891344129188
+
+ ### Classifier : Extra Trees Optimized  ### 
+Accuracy : 0.876415857605178 
+precision : 0.8430431272295577 
+Recall : 0.9305016181229773 
+F1 Score : 0.8837265965246301
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8485032362459546 
+precision : 0.8342249742288667 
+Recall : 0.8794093851132686 
+F1 Score : 0.853643298157996
+
+ ### Classifier : Random Forest Optimized  ### 
+Accuracy : 0.8622370550161813 
+precision : 0.8286712524181656 
+Recall : 0.9192556634304208 
+F1 Score : 0.8715599549121731
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.8450849514563107 
+precision : 0.8042697719569686 
+Recall : 0.915574433656958 
+F1 Score : 0.8558275757717191
+
+ ### Classifier : KNN Optimized  ### 
+Accuracy : 0.8707119741100323 
+precision : 0.8291034282663066 
+Recall : 0.9375 
+F1 Score : 0.879367640066907
+
+-------------------------------
+
+3. Greedy Feature Selection
+
+Initial Result 0.8911003236245953
+Result after feature selection:  0.8868122977346278
+
+ ### Classifier : Extra Trees  ### 
+Accuracy : 0.8742111650485438 
+precision : 0.8615945877164798 
+Recall : 0.8968042071197411 
+F1 Score : 0.8774403870521772
+
+ ### Classifier : Extra Trees Optimized  ### 
+Accuracy : 0.883960355987055 
+precision : 0.8546483644665429 
+Recall : 0.9298139158576053 
+F1 Score : 0.890600159413291
+
+ ### Classifier : Random Forest  ### 
+Accuracy : 0.8562297734627832 
+precision : 0.844843375762901 
+Recall : 0.8819174757281554 
+F1 Score : 0.8614053863522646
+
+ ### Classifier : Random Forest Optimized  ### 
+Accuracy : 0.8714805825242719 
+precision : 0.8424226436192072 
+Recall : 0.9224514563106796 
+F1 Score : 0.8790664364236533
+
+ ### Classifier : KNN  ### 
+Accuracy : 0.8508899676375405 
+precision : 0.8090614125184924 
+Recall : 0.922411003236246 
+F1 Score : 0.8614058811699727
+
+ ### Classifier : KNN Optimized  ### 
+Accuracy : 0.8746156957928802 
+precision : 0.8363290028123304 
+Recall : 0.9354368932038835 
+F1 Score : 0.8824988723903434 
+
+----------------------------------------------------------------------------------------------------------------------
+
+
